@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 1rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb:vertical {
+  background-color: rgba(0, 0, 0, 0.61);
+  border-radius: 10px;
+}
+ 
+::-webkit-inner-spin-button {
+  appearance: none;
+}
